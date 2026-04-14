@@ -6,7 +6,7 @@
     "scripts":  {
                     "dev":  "tsx watch -r tsconfig-paths/register src/index.ts",
                     "build":  "rimraf dist \u0026\u0026 tsc \u0026\u0026 tsc-alias",
-                    "start":  "node dist/index.js"
+                    "start":  "node dist/bundle.js"
                 },
     "engines":  {
                     "node":  "20 || \u003e=22"
